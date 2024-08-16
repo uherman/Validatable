@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A7C979C9-68EE-41C4-9534-38E8D709AC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validatable", "src\Validatable\Validatable.csproj", "{BE7A6EC8-A4CA-4AF8-846D-D8B77F4152D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{89A1E91A-7F42-42EF-9745-F5BA7B988248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validatable.Unit.Test", "src\test\Validatable.Unit.Test\Validatable.Unit.Test.csproj", "{160F73BB-8330-4D43-AA4E-CA3E6DB7017E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE7A6EC8-A4CA-4AF8-846D-D8B77F4152D9} = {A7C979C9-68EE-41C4-9534-38E8D709AC5A}
+		{89A1E91A-7F42-42EF-9745-F5BA7B988248} = {A7C979C9-68EE-41C4-9534-38E8D709AC5A}
+		{160F73BB-8330-4D43-AA4E-CA3E6DB7017E} = {89A1E91A-7F42-42EF-9745-F5BA7B988248}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE7A6EC8-A4CA-4AF8-846D-D8B77F4152D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7A6EC8-A4CA-4AF8-846D-D8B77F4152D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7A6EC8-A4CA-4AF8-846D-D8B77F4152D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7A6EC8-A4CA-4AF8-846D-D8B77F4152D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160F73BB-8330-4D43-AA4E-CA3E6DB7017E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160F73BB-8330-4D43-AA4E-CA3E6DB7017E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160F73BB-8330-4D43-AA4E-CA3E6DB7017E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160F73BB-8330-4D43-AA4E-CA3E6DB7017E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
